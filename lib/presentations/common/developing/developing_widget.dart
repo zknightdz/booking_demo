@@ -27,7 +27,7 @@ class DevelopingWidget extends StatelessWidget {
               const SizedBox(height: 35),
               Text(
                 S.current.feature_developing,
-                style: theme.font.t16MBody.copyWith(
+                style: theme.font.headline4.copyWith(
                   color: theme.color.primaryBrand900,
                 ),
                 textAlign: TextAlign.center,
@@ -35,7 +35,7 @@ class DevelopingWidget extends StatelessWidget {
               const SizedBox(height: 8),
               Text(
                 S.current.feature_developing_message,
-                style: theme.font.t14RParagraph.copyWith(
+                style: theme.font.body3.copyWith(
                   color: theme.color.primaryBrand500,
                 ),
                 textAlign: TextAlign.center,

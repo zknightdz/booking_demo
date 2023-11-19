@@ -78,7 +78,7 @@ class _DashBoardNavigationBarState extends State<DashBoardNavigationBar> {
                           const SizedBox(height: 2),
                           Text(
                             bloc.label(idx),
-                            style: theme.font.t10MBody.copyWith(
+                            style: theme.font.caption1.copyWith(
                               color: isSelected
                                   ? theme.color.primaryBrand900
                                   : theme.color.blueGray400,

@@ -4,8 +4,12 @@ abstract class _NIXOThemeColor {
   ///primary color
   abstract Color primaryBrand900;
   abstract Color primaryBrand500;
+  abstract Color primaryBrand200;
   abstract Color white900;
   abstract Color coolGray900;
+  abstract Color coolGray500;
+  abstract Color coolGray200;
+  abstract Color blueGray500;
   abstract Color blueGray400;
   abstract Color blueGray100;
 }
@@ -16,9 +20,17 @@ class _NIXOLightTheme extends _NIXOThemeColor {
   @override
   Color primaryBrand500 = HexColor.fromHex('#8683A1');
   @override
+  Color primaryBrand200 = HexColor.fromHex('#C3C1D0');
+  @override
   Color white900 = HexColor.fromHex('#FFFFFF');
   @override
   Color coolGray900 = HexColor.fromHex('#111827');
+  @override
+  Color coolGray500 = HexColor.fromHex('#6B7280');
+  @override
+  Color coolGray200 = HexColor.fromHex('#E5E7EB');
+  @override
+  Color blueGray500 = HexColor.fromHex('#64748B');
   @override
   Color blueGray400 = HexColor.fromHex('#94A3B8');
   @override
@@ -31,9 +43,17 @@ class _NIXODarkTheme extends _NIXOThemeColor {
   @override
   Color primaryBrand500 = HexColor.fromHex('#8683A1');
   @override
+  Color primaryBrand200 = HexColor.fromHex('#C3C1D0');
+  @override
   Color white900 = HexColor.fromHex('#FFFFFF');
   @override
   Color coolGray900 = HexColor.fromHex('#111827');
+  @override
+  Color coolGray500 = HexColor.fromHex('#6B7280');
+  @override
+  Color coolGray200 = HexColor.fromHex('#E5E7EB');
+  @override
+  Color blueGray500 = HexColor.fromHex('#64748B');
   @override
   Color blueGray400 = HexColor.fromHex('#94A3B8');
   @override

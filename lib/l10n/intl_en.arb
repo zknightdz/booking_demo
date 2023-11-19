@@ -4,5 +4,14 @@
   "chat": "Chat",
   "profile": "Profile",
   "feature_developing": "This feature is under development!!",
-  "feature_developing_message": "We are trying to bring it to you as soon as possible. Please come back later!"
+  "feature_developing_message": "We are trying to bring it to you as soon as possible. Please come back later!",
+  "maps": "Maps",
+  "booking_schedule": "Booking schedule",
+  "time_estimation": "Time estimation",
+  "search_hint": "Search barber’s, haircut service",
+  "nearest_barbershop": "Nearest Barbershop",
+  "see_all": "See All",
+  "most_recommended": "Most recommended",
+  "find_a_barber_nearby": "Find a barber nearby",
+  "find_now": "Find now"
 }

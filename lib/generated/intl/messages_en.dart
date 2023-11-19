@@ -23,12 +23,27 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "booking": MessageLookupByLibrary.simpleMessage("Booking"),
+        "booking_schedule":
+            MessageLookupByLibrary.simpleMessage("Booking schedule"),
         "chat": MessageLookupByLibrary.simpleMessage("Chat"),
         "feature_developing": MessageLookupByLibrary.simpleMessage(
             "This feature is under development!!"),
         "feature_developing_message": MessageLookupByLibrary.simpleMessage(
             "We are trying to bring it to you as soon as possible. Please come back later!"),
+        "find_a_barber_nearby":
+            MessageLookupByLibrary.simpleMessage("Find a barber nearby"),
+        "find_now": MessageLookupByLibrary.simpleMessage("Find now"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
-        "profile": MessageLookupByLibrary.simpleMessage("Profile")
+        "maps": MessageLookupByLibrary.simpleMessage("Maps"),
+        "most_recommended":
+            MessageLookupByLibrary.simpleMessage("Most recommended"),
+        "nearest_barbershop":
+            MessageLookupByLibrary.simpleMessage("Nearest Barbershop"),
+        "profile": MessageLookupByLibrary.simpleMessage("Profile"),
+        "search_hint": MessageLookupByLibrary.simpleMessage(
+            "Search barber’s, haircut service"),
+        "see_all": MessageLookupByLibrary.simpleMessage("See All"),
+        "time_estimation":
+            MessageLookupByLibrary.simpleMessage("Time estimation")
       };
 }

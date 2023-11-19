@@ -109,6 +109,96 @@ class S {
       args: [],
     );
   }
+
+  /// `Maps`
+  String get maps {
+    return Intl.message(
+      'Maps',
+      name: 'maps',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Booking schedule`
+  String get booking_schedule {
+    return Intl.message(
+      'Booking schedule',
+      name: 'booking_schedule',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Time estimation`
+  String get time_estimation {
+    return Intl.message(
+      'Time estimation',
+      name: 'time_estimation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Search barber’s, haircut service`
+  String get search_hint {
+    return Intl.message(
+      'Search barber’s, haircut service',
+      name: 'search_hint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nearest Barbershop`
+  String get nearest_barbershop {
+    return Intl.message(
+      'Nearest Barbershop',
+      name: 'nearest_barbershop',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `See All`
+  String get see_all {
+    return Intl.message(
+      'See All',
+      name: 'see_all',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Most recommended`
+  String get most_recommended {
+    return Intl.message(
+      'Most recommended',
+      name: 'most_recommended',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Find a barber nearby`
+  String get find_a_barber_nearby {
+    return Intl.message(
+      'Find a barber nearby',
+      name: 'find_a_barber_nearby',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Find now`
+  String get find_now {
+    return Intl.message(
+      'Find now',
+      name: 'find_now',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

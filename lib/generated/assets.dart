@@ -13,5 +13,14 @@ class Assets {
   static const String iconsSetting = 'assets/icons/setting.svg';
   static const String iconsSquareArrowRightUp = 'assets/icons/square_arrow_right_up.svg';
   static const String iconsStar = 'assets/icons/Star.svg';
+  static const String imagesCardBg = 'assets/images/card_bg.png';
+  static const String imagesDemoMaps = 'assets/images/demo_maps.png';
+  static const String imagesIm1 = 'assets/images/im1.png';
+  static const String imagesIm2 = 'assets/images/im2.png';
+  static const String imagesIm3 = 'assets/images/im3.png';
+  static const String imagesIm4 = 'assets/images/im4.png';
+  static const String imagesIm5 = 'assets/images/im5.png';
+  static const String imagesIm6 = 'assets/images/im6.png';
+  static const String imagesIm9 = 'assets/images/im9.png';
 
 }
